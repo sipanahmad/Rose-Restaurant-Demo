@@ -5,14 +5,14 @@
 @tailwind utilities;
 
 @layer base{
-	html, body{
+html, body{
   		scroll-behavior: smooth;
 	}
-	html::-webkit-scrollbar {
-	display: none; /* Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+	display: auto; /* Chrome, Safari and Opera */
 	}
-	html {
-	scrollbar-width: none; /* Firefox */
+html {
+	scrollbar-width: auto; /* Firefox */
 	}
 }
 @layer utilities {
