@@ -8,6 +8,12 @@
 	html, body{
   		scroll-behavior: smooth;
 	}
+	html::-webkit-scrollbar {
+	display: none; /* Chrome, Safari and Opera */
+	}
+	html {
+	scrollbar-width: none; /* Firefox */
+	}
 }
 @layer utilities {
 	.bg-url {
