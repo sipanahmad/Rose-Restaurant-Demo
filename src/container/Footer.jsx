@@ -34,7 +34,7 @@ const Footer = () => {
 			</div>
 			<div className='flex-1 text-center m-4'>
 				<img
-					src='../../public/favicon.png'
+					src='../assets/logo.png'
 					alt='rose logo'
 					className='w-[80%] md:w-[210px] object-contain py-0 mb-3 mx-auto'
 				/>
