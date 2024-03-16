@@ -1,0 +1,110 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+	html, body{
+  		scroll-behavior: smooth;
+	}
+}
+@layer utilities {
+	.bg-url {
+		background-image: url('../src/assets/bg.png');
+	}
+	.bg-url-ramadan {
+		background-image: url('../src/assets/ramadan.png');
+		background-size: 50%;
+	}
+	.section-padding {
+		@apply p-16 lg:px-24 lg:py-12 md:px-16 md:py-8;
+	}
+	.overflow-style {
+		-ms-overflow-style: none;
+		-webkit-overflow-style: none;
+		scrollbar-width: none;
+		scroll-behavior: smooth;
+		
+	}
+	.overflow-style::-webkit-scrollbar {
+		display: none;
+	}
+	
+	
+/*Amazing Deliceas Section css */
+.ourPakeg .main_pakeg_content .head_title h3{
+	color:#fff;
+	
+}
+.ourPakeg .main_pakeg_content .head_title h4{
+	color:#fff;
+	font-size:1.875rem;
+}
+
+.ourPakeg{
+	background:url(./assets/newsbg.jpg) no-repeat center top scroll;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;	
+  padding-bottom:120px;
+}
+
+.single_pakeg_one{
+	background:url(./assets/newsone.jpg) left center no-repeat;
+	padding:30px;
+	overflow:hidden;
+	margin-top:60px;
+	background-size:60%;
+}
+.single_pakeg_two{
+	background:url(./assets/newstwo.jpg) right center no-repeat;
+	padding:30px;	
+	overflow:hidden;
+	margin-top:60px;
+	margin-right:-60px;
+	background-size:60%;	
+	
+}
+.single_pakeg_three{
+	background:url(./assets//newsthree.jpg) left center no-repeat;
+	padding:30px;	
+	overflow:hidden;
+	margin-top:60px;	
+	background-size:60%;
+}
+
+.single_pakeg_four{
+	background:url(./assets/newsfour.jpg) right center no-repeat;
+	padding:30px;
+	overflow:hidden;
+	margin-top:60px;
+	margin-right:-60px;
+	background-size:60%;
+}
+.single_pakeg_five{
+	background:url(./assets/newsfive.jpg) left center no-repeat;
+	padding:30px;	
+	overflow:hidden;
+	margin-top:60px;
+	background-size:60%;	
+}
+.single_pakeg_text{
+	background:#fff;
+	padding:30px;
+	text-align:left;
+}
+
+.single_pakeg_text ul li{
+    padding: 15px 0px 15px 60px;
+    margin-top: 20px;
+	
+}
+
+
+	
+}
+
